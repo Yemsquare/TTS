@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="create">Create an</string>
+    <string name="account">account</string>
+    <string name="password">password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="by_clicking_the_register_button_you_agree_to_the_public_offer">By clicking the Register button, you agree to the public offer</string>
+    <string name="backk">Back!</string>
+    <string name="register">REGISTER</string>
+    <string name="sign_in_with">sign in with</string>
+    <string name="sign_in">Sign in</string>
+</resources>
