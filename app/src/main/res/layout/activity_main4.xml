@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4">
+
+    <LinearLayout
+        android:id="@+id/layout_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edit_Text"
+            android:layout_width="match_parent"
+            android:layout_height="307dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/shape"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="@string/paste_the_text"
+            android:inputType="textMultiLine"
+           />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/action_button_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/layout_text"
+        android:layout_marginTop="50dp"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/download_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/main_component_1__2"
+            android:background="@null"
+            android:layout_marginEnd="5dp"
+            />
+        <ImageButton
+            android:id="@+id/speak_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/main_group_10"
+            android:layout_marginEnd="5dp"
+            android:background="@null"
+            android:defaultFocusHighlightEnabled="false"
+            />
+
+        <ImageButton
+            android:id="@+id/share_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/main_group_7"
+            android:background="@null"
+            android:layout_marginEnd="5dp"
+            />
+
+
+
+    </LinearLayout>
+</RelativeLayout>
