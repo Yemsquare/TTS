@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">TTSs</string>
+    <string name="for_skip">for_skip</string>
+    <string name="for_starting">for_starting</string>
+    <string name="icon_on_splash_screen_1">icon_on_splash_screen_1</string>
+    <string name="eclipse">eclipse_one</string>
+    <string name="eclipse_two">eclipse_two</string>
+    <string name="paste_the_text">Paste the text</string>
+    <string name="create">Create an</string>
+    <string name="account">account</string>
+    <string name="username_or_email">username or email</string>
+    <string name="password">password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="by_clicking_the_register_button_you_agree_to_the_public_offer">By clicking the <b color="red">Register</b> button, you agree to the public offer</string>
+    <string name="back">back</string>
+    <string name="welcome">Welcome</string>
+    <string name="backk">Back!</string>
+    <string name="register"><b>REGISTER</b></string>
+    <string name="sign_in_with">sign in with</string>
+    <string name="sign_in">Sign in</string>
+</resources>
