@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/layout_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <ImageView
+            android:id="@+id/icon1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/group_1"
+            android:layout_marginTop="150dp"
+            android:contentDescription="@string/icon_on_splash_screen_1" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout_eclipse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/layout_main"
+        android:layout_marginTop="90dp"
+        android:gravity="center"
+        >
+        <ImageView
+            android:id="@+id/dot_load"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ellipse_348"
+            android:layout_marginEnd="10dp"
+            android:contentDescription="@string/eclipse"
+            />
+        <ImageView
+            android:id="@+id/dot_load1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ellipse_349"
+            android:layout_marginEnd="10dp"
+            android:contentDescription="@string/eclipse_two" />
+        <ImageView
+            android:id="@+id/dot_load2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ellipse_350"
+            android:layout_marginEnd="10dp"
+            android:contentDescription="@string/eclipse_two" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout_button"
+        android:orientation="vertical"
+        android:layout_below="@id/layout_eclipse"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <ImageView
+            android:id="@+id/started"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/group_8"
+
+            />
+        <ImageView
+            android:id="@+id/skip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/secondary_button"
+             />
+   <!--     <Button
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/next"
+            />
+-->
+    </LinearLayout>
+
+
+</RelativeLayout>

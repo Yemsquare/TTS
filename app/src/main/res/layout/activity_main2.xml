@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        android:id="@+id/layout_icon2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <ImageView
+            android:id="@+id/icon2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:src="@drawable/splash_2_group_2"
+           />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout_dot2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/layout_icon2"
+        android:layout_marginTop="90dp"
+        android:gravity="center"
+        >
+        <ImageView
+            android:id="@+id/dot2_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/splash_2_ellipse_349"
+            android:layout_marginEnd="10dp"
+            />
+        <ImageView
+            android:id="@+id/dot2_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/splash_2_ellipse_348"
+            android:layout_marginEnd="10dp"
+            />
+        <ImageView
+            android:id="@+id/dot2_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/splash_2_ellipse_350"
+            android:layout_marginEnd="10dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout_button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/layout_dot2"
+        android:layout_marginTop="60dp"
+        >
+        <ImageView
+            android:id="@+id/button_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/splash_2_primary_button"
+            />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
